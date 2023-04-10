@@ -3,11 +3,16 @@
  <%= render "shared/banner" %>
 
   <div class="list">
-  <% @animes.each do |anime| %>
-    <div class="item">
-      <%= image_tag("#{anime.image}") %>
-      <p><%=anime.nom%></p>
-      <p><%= anime.note%></p>
-    </div>
+    <% @animes.each do |anime| %>
+      <article class="card" style="background: url(<%= "#{anime.image}" %>); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="card_body">
+          <%# <%= image_tag("#{anime.image}") %>
+          <p><%=anime.nom%></p>
+          <p><%= anime.note%></p>
+        </div>
+      </article>
     <% end %>
   </div>
+
+<%#
+<% console %>
