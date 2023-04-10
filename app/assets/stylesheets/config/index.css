@@ -1,7 +1,9 @@
 .list {
   display: flex;
   flex-wrap: wrap;
-  margin: 25px;
+  margin: 50px 75px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -20,6 +22,7 @@
   padding: 10px;
   border-radius: 20px;
   overflow: hidden;
+  margin: 25px;
 }
 
 .card::before,
