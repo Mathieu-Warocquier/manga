@@ -1,5 +1,7 @@
 <h1>pages acceuil ok</h1>
 
+ <%= render "shared/banner" %>
+
   <% @animes.each do |anime| %>
     <%= image_tag("#{anime.image}") %>
     <p><%=anime.nom%></p>
