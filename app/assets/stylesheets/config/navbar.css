@@ -20,7 +20,7 @@ a {
 }
 
 .navbar {
-  height: 7.5rem;
+  height: 4.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,7 +69,7 @@ header.active {
 }
 
 header.active .navbar {
-  height: 6rem;
+  height: 4rem;
 }
 
 header.active .logo,
