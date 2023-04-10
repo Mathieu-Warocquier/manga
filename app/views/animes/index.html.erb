@@ -1,1 +1,7 @@
 <h1>pages acceuil ok</h1>
+
+  <% @animes.each do |anime| %>
+    <%= image_tag("#{anime.image}") %>
+    <p><%=anime.nom%></p>
+    <p><%= anime.note%></p>
+  <% end %>
