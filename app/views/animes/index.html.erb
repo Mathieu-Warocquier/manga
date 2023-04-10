@@ -2,8 +2,12 @@
 
  <%= render "shared/banner" %>
 
+  <div class="list">
   <% @animes.each do |anime| %>
-    <%= image_tag("#{anime.image}") %>
-    <p><%=anime.nom%></p>
-    <p><%= anime.note%></p>
-  <% end %>
+    <div class="item">
+      <%= image_tag("#{anime.image}") %>
+      <p><%=anime.nom%></p>
+      <p><%= anime.note%></p>
+    </div>
+    <% end %>
+  </div>
