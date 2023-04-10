@@ -81,9 +81,9 @@ header.active .nav-link:hover {
 	color: #808080;
 }
 header.active .button {
-	background-color: #313131;
+	background-color: #5C0A00;
 	color: #fff;
 }
 header.active .button:hover {
-	background-color: #151515;
+	background-color: #FE2F93;
 }
