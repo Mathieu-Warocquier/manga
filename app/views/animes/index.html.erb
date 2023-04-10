@@ -7,8 +7,8 @@
       <article class="card" style="background: url(<%= "#{anime.image}" %>); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="card_body">
           <%# <%= image_tag("#{anime.image}") %>
-          <p><%=anime.nom%></p>
-          <p><%= anime.note%></p>
+          <h1 class="card_title"><%=anime.nom%></h1>
+          <p>note lecteurs <br><%= anime.note%></p>
         </div>
       </article>
     <% end %>

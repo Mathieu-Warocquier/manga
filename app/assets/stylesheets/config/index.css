@@ -13,7 +13,7 @@
   place-content: center;
   width: 250px;
   height: 250px;
-  color: #a18a96;
+  color: #5C0A00;
   text-align: center;
   /* background: url(pedri.jpeg) center no-repeat; */
   /* background-size: cover;
@@ -23,6 +23,8 @@
   border-radius: 20px;
   overflow: hidden;
   margin: 25px;
+
+  cursor: pointer;
 }
 
 .card::before,
@@ -55,7 +57,7 @@
 }
 
 .card_title {
-  color: #6a515e;
+  color: #5C0A00;
   margin-bottom: 15px;
 }
 
