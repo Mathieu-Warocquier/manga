@@ -1,0 +1,26 @@
+<header class="primary-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">GAIA.</a>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">lien 1</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">lien 2</a>
+          </li>
+        </ul>
+      <a href="#" class="button">Clique ici</a>
+    </nav>
+  </header>
+
+  <script>
+    const isScrolling = () => {
+      const headerEl = document.querySelector(".primary-header")
+      let windowPosition = window.scrollY > 250
+      headerEl.classList.toggle('active', windowPosition)
+    }
+    window.addEventListener('scroll', isScrolling)
+  </script>
