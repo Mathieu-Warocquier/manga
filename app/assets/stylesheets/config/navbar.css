@@ -109,9 +109,9 @@ header.active .button:hover {
 	color: #808080;
 }
 .secondary-header .button {
-	background-color: #5C0A00;
+	background-color: #FE2F93;
 	color: #fff;
 }
 .secondary-header .button:hover {
-	background-color: #FE2F93;
+	background-color: #5C0A00;
 }

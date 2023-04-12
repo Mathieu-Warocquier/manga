@@ -1,11 +1,20 @@
-<br><br><br><br>
+ <div class="container_show">
+  <div class="infos">
+    <div class="note_auteur">
+      <div class="note">
+        <p>notes des lecteur <%= @anime.note %></p>
+      </div>
+      <div class="auteur">
+        <i class="fa-sharp fa-solid fa-paintbrush-fine" style="color: #242424;"></i>
+        <p>auteur <%= @anime.dessinateur %></p>
+      </div>
+    </div>
+    <div class="titre" style="background: url(<%= "#{@anime.image}" %>); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      <p><%= @anime.nom %></p>
+    </div>
+  </div>
 
-<div class="test">
+  <div class="infos_complet">
 
-<h1>show de anim</h1>
-
-
-<%= @anime.nom %>
-<%= @anime.image %>
-
-</div>
+  </div>
+ </div>

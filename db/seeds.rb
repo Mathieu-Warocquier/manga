@@ -25,7 +25,7 @@ anime5 = Anime.create!(nom: "Bleach", note: 16, titrevo: "ブリーチ", titrevf
 
 anime6 = Anime.create!(nom: "GTO - Great Teacher Onizuka", note: 17, titrevo: "ジー ティー オー", titrevf: "Great Teacher Onizuka GTO", dessinateur: "FUJISAWA Tôru / FUJISAWA Tohru", editeur: "Pika", genre: "Comedie, Action", date: "Japon - 1997", image: "https://www.japanfm.fr/wp-content/uploads/2022/01/gto.jpg")
 
-anime7 = Anime.create!(nom: "Saint Seiya - Les chevaliers du zodiaque", note: 16, titrevo: "聖闘士星矢", titrevf: "Saint Seiya", dessinateur: "KURUMADA Masami", editeur: "Kana", genre: "Aventure, Fantastique", date: "Japon - 1986", image: "https://img.hebus.com/hebus_2004/09/10/preview/040910104938_100.jpg")
+anime7 = Anime.create!(nom: "Les chevaliers du zodiaque", note: 16, titrevo: "聖闘士星矢", titrevf: "Saint Seiya", dessinateur: "KURUMADA Masami", editeur: "Kana", genre: "Aventure, Fantastique", date: "Japon - 1986", image: "https://img.hebus.com/hebus_2004/09/10/preview/040910104938_100.jpg")
 
 anime8 = Anime.create!(nom: "Kenshin - le vagabond", note: 17, titrevo: "るろうに剣心", titrevf: "Ruroni Kenshin", dessinateur: "WATSUKI Nobuhiro", editeur: "Glénat", genre: "Aventure, Arts martiaux", date: "Japon - 1994", image: "https://biolibre.fr/media/cache/articleMainImg/images/articles/rurouni_kenshin.jpeg")
 
