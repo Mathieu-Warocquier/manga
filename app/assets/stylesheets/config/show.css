@@ -26,13 +26,24 @@
 .note, .auteur {
   height: 45%;
   width: 85%;
-  background-color: rgb(101, 101, 101);
+  background-color: rgb(101 101 101 / 25%);
+  box-shadow: 2px 2px 2px -2px #FE2F93;
   /* margin: 5px; */
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  padding: 0 15px;
+  font-size: 30px;
+}
+
+
+.info_n_a {
+  align-self: flex-end;
+}
+
+.info_n_a p {
+  text-align: end;
 }
 
 .titre {
@@ -42,6 +53,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  box-shadow: 2px 2px 2px -2px #FE2F93;
+
 }
 
 .titre p {
@@ -49,10 +62,12 @@
   font-size: 100px;
   font-weight: bold;
   margin: 10px;
+  text-shadow: 2px 2px 2px #5C0A00;
 }
 
 .infos_complet {
-  background-color:rgb(101, 101, 101);
+  background-color: rgb(101 101 101 / 25%);
+  box-shadow: 2px 2px 2px -2px #FE2F93;
   height: 500px;
   width: 93%;
   margin: 25px;

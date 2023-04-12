@@ -2,11 +2,18 @@
   <div class="infos">
     <div class="note_auteur">
       <div class="note">
-        <p>notes des lecteur <%= @anime.note %></p>
+        <i class="fa-solid fa-star" style="color: #ffffff; font-size: 75px;"></i>
+        <div class="info_n_a">
+          <p>Notes des lecteur</p>
+          <p><%= @anime.note %></p>
+        </div>
       </div>
       <div class="auteur">
-        <i class="fa-sharp fa-solid fa-paintbrush-fine" style="color: #242424;"></i>
-        <p>auteur <%= @anime.dessinateur %></p>
+        <i class="fa-solid fa-pen" style="color: #ffffff; font-size: 75px;"></i>
+          <div class="info_n_a">
+            <p>Auteur</p>
+            <p><%= @anime.dessinateur %></p>
+          </div>
       </div>
     </div>
     <div class="titre" style="background: url(<%= "#{@anime.image}" %>); background-size: cover; background-position: center; background-repeat: no-repeat;">
