@@ -1,4 +1,8 @@
-<header class="primary-header">
+<% if params[:action] == "index" %>
+  <header class="primary-header">
+<% else %>
+  <header class="primary-header active">
+<% end %>
     <nav class="navbar container">
       <%= link_to root_path do%>
         <div class="logo">GAIA.</div>
@@ -19,6 +23,7 @@
     </nav>
   </header>
 
+<% if params[:action] == "index" %>
   <script>
     const isScrolling = () => {
       const headerEl = document.querySelector(".primary-header")
@@ -27,3 +32,5 @@
     }
     window.addEventListener('scroll', isScrolling)
   </script>
+<% else %>
+<% end %>

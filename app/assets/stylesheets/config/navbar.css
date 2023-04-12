@@ -13,6 +13,10 @@ a {
   color:#fff;
 }
 
+.secondnavbar {
+  background-color: black;
+}
+
 .container {
   max-width: 120rem;
   margin-inline: auto;
