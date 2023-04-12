@@ -13,9 +13,6 @@ a {
   color:#fff;
 }
 
-.secondnavbar {
-  background-color: black;
-}
 
 .container {
   max-width: 120rem;
@@ -89,5 +86,32 @@ header.active .button {
 	color: #fff;
 }
 header.active .button:hover {
+	background-color: #FE2F93;
+}
+
+/* ------------- */
+
+.secondary-header {
+  background-color: #fff;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+}
+
+.secondary-header .navbar {
+  height: 4rem;
+}
+
+.secondary-header .logo,
+.secondary-header .nav-link {
+	color: #313131;
+}
+
+.secondary-header .nav-link:hover {
+	color: #808080;
+}
+.secondary-header .button {
+	background-color: #5C0A00;
+	color: #fff;
+}
+.secondary-header .button:hover {
 	background-color: #FE2F93;
 }

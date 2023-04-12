@@ -1,7 +1,7 @@
 <% if params[:action] == "index" %>
   <header class="primary-header">
 <% else %>
-  <header class="primary-header active">
+  <header class="secondary-header">
 <% end %>
     <nav class="navbar container">
       <%= link_to root_path do%>
@@ -27,18 +27,10 @@
   <script>
     const isScrolling = () => {
       const headerEl = document.querySelector(".primary-header")
-      let windowPosition = window.scrollY > 250
+      let windowPosition = window.scrollY > 330
       headerEl.classList.toggle('active', windowPosition)
     }
     window.addEventListener('scroll', isScrolling)
   </script>
 <% else %>
-  <script>
-    const isScrolling = () => {
-      const headerEl = document.querySelector(".primary-header")
-      let windowPosition = window.scrollY >= 0
-      headerEl.classList.toggle('active', windowPosition)
-    }
-    window.addEventListener('scroll', isScrolling)
-  </script>
 <% end %>
