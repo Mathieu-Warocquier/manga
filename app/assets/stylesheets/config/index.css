@@ -23,8 +23,6 @@
   border-radius: 20px;
   overflow: hidden;
   margin: 25px;
-
-  cursor: pointer;
 }
 
 .card::before,

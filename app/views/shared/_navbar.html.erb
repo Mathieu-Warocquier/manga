@@ -33,4 +33,12 @@
     window.addEventListener('scroll', isScrolling)
   </script>
 <% else %>
+  <script>
+    const isScrolling = () => {
+      const headerEl = document.querySelector(".primary-header")
+      let windowPosition = window.scrollY >= 0
+      headerEl.classList.toggle('active', windowPosition)
+    }
+    window.addEventListener('scroll', isScrolling)
+  </script>
 <% end %>

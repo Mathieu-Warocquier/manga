@@ -5,14 +5,17 @@
   <div class="list">
     <% @animes.each do |anime| %>
       <article class="card" style="background: url(<%= "#{anime.image}" %>); background-size: cover; background-position: center; background-repeat: no-repeat;">
-        <div class="card_body">
+        <%# <div class="card_body"> %>
+        <%= link_to anime_path(anime), class:"card_body" do %>
           <%# <%= image_tag("#{anime.image}") %>
           <h1 class="card_title"><%=anime.nom%></h1>
           <p>note lecteurs <br><%= anime.note%></p>
-        </div>
+        <%# </div> %>
+        <% end %>
       </article>
     <% end %>
   </div>
 
+<%# <%= link_to anime_path(anime), class:"card_body" do %>
 
 <% console %>
