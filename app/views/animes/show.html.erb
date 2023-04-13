@@ -2,14 +2,14 @@
   <div class="infos">
     <div class="note_auteur">
       <div class="note">
-        <i class="fa-solid fa-star" style="color: #ffffff; font-size: 75px;"></i>
+        <i class="fa-solid fa-star" style="color: #ffffff; font-size: 6vw;"></i>
         <div class="info_n_a">
           <p>Notes des lecteur</p>
           <p><%= @anime.note %></p>
         </div>
       </div>
       <div class="auteur">
-        <i class="fa-solid fa-pen" style="color: #ffffff; font-size: 75px;"></i>
+        <i class="fa-solid fa-pen" style="color: #ffffff; font-size: 6vw;"></i>
           <div class="info_n_a">
             <p>Auteur</p>
             <p><%= @anime.dessinateur %></p>
@@ -22,6 +22,9 @@
   </div>
 
   <div class="infos_complet">
-
+    <p><%= @anime.titrevf %></p>
+    <p><%= @anime.titrevo %></p>
+    <p><%= @anime.editeur %></p>
+    <p><%= @anime.date %></p>
   </div>
  </div>
